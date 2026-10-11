@@ -1,0 +1,32 @@
+parameter,value,units,provenance,source,DOI,conditions,notes
+q_max_HCHO_primary_amine,1.4e-3,mol/g_sorbent,LITERATURE,"Bollini et al., J. Mater. Chem., 2011",10.1039/C1JM13960A,"25°C, mesoporous silica SBA-15",Primary amine functionalized
+q_max_HCHO_PEI_silica,5.7e-3,mol/g_sorbent,LITERATURE,"Nomura & Jones, Chem. Eur. J., 2014",10.1002/chem.201304744,"25°C, PEI-impregnated silica",High loading PEI
+q_max_HCHO_secondary_amine,0.8e-3,mol/g_sorbent,LITERATURE,"Srisuda & Virote, J. Environ. Sci., 2008",10.1016/S1001-0742(08)62113-0,"30°C, organosilane on mesoporous silica",Secondary amine
+K_L_HCHO,500.0,m3/mol,ASSUMED FOR PARAMETRIC STUDY,Order-of-magnitude estimate,,25°C,Consistent with strong chemisorption affinity
+k_LDF_HCHO,0.01,1/s,ASSUMED FOR PARAMETRIC STUDY,Typical LDF coefficient for mesoporous sorbents,,25°C,Literature range 0.001-0.05 for similar systems
+E_a_des_chemisorption,57-76,kJ/mol,LITERATURE,"Veneman et al., Energy Procedia, 2015",10.1016/j.egypro.2014.11.218,TEPA-modified MCM-41,Chemisorption desorption range
+E_a_des_physisorption,15-16,kJ/mol,LITERATURE,"Veneman et al., Energy Procedia, 2015",10.1016/j.egypro.2014.11.218,TEPA-modified MCM-41,Physisorption desorption
+E_a_des_HCHO_used,65.0,kJ/mol,ASSUMED FOR PARAMETRIC STUDY,Mid-range of chemisorption values,,Amine-HCHO imine bond,
+A_des_HCHO,1.0e6,1/s,ASSUMED FOR PARAMETRIC STUDY,Pre-exponential factor estimate,,Arrhenius model,Typical for surface reactions
+dH_ads_HCHO,-60.0,kJ/mol,ASSUMED FOR PARAMETRIC STUDY,Chemisorption enthalpy estimate,,25°C,Exothermic imine formation
+q_max_CH3CHO,1.0e-3,mol/g_sorbent,ASSUMED FOR PARAMETRIC STUDY,~70% of HCHO capacity,,25°C,Larger molecule lower reactivity
+T_exhaust_cookstove,200-480,degC,LITERATURE,"Flue gas temperature range for wood stoves",,Various biomass stoves,Internal flue gas temperature
+T_surface_cookstove,95-345,degC,LITERATURE,"Stove surface temperature range",,Various biomass stoves,External measurement
+Seebeck_Bi2Te3,200-240,uV/K,LITERATURE,"Bi2Te3 material property at 300K",,Room temperature,Per thermoelectric couple
+R_int_TEG_module,3.0,Ohm,LITERATURE,"Typical 127-couple Bi2Te3 module",,~300K,Commercial module specification
+K_TEG_module,1.2,W/K,LITERATURE,"Typical 127-couple Bi2Te3 module thermal conductance",,~300K,Commercial module
+zT_Bi2Te3,1.0-1.2,-,LITERATURE,"State-of-art bulk Bi2Te3",,300K,Dimensionless figure of merit
+T_max_TEG_hot,453.15,K,LITERATURE,"Bi2Te3 operating limit ~180°C",,Maximum recommended,
+P_TEG_single_module,0.1-3.0,W,LITERATURE,"Single module cookstove TEG output",,dT=50-200K,Depends on dT and cooling
+P_TEG_multi_module,6-27,W,LITERATURE,"Multi-module cookstove TEG systems",,Optimized systems,Research prototypes
+eps_packed_bed_spheres,0.36-0.48,-,LITERATURE,"Typical packed bed void fraction (spheres)",,Random packing,Ergun equation parameter
+eps_packed_bed_irregular,0.30-0.50,-,LITERATURE,"Irregular particles/granules porosity",,Random packing,
+phi_adsorbent_pellets,0.6-0.9,-,LITERATURE,"Sphericity of typical adsorbent pellets",,Extrudates and pellets,Ergun equation
+mu_air_25C,1.81e-5,Pa.s,LITERATURE,"Dynamic viscosity of air at 25°C",,1 atm,Standard property
+rho_air_25C,1.184,kg/m3,LITERATURE,"Air density at 25°C",,1 atm,Standard property
+T_regen_amine_sorbent,60-120,degC,LITERATURE,"Effective amine sorbent regeneration temperature",,TSA operation,Literature consensus
+rho_bed_aminosilica,600,kg/m3,ASSUMED FOR PARAMETRIC STUDY,Bulk density of packed aminosilica bed,,Typical for porous silica pellets,
+c_p_silica,800-1000,J/(kg.K),LITERATURE,"Specific heat of silica-based materials",,Room temperature,
+k_eff_packed_bed,0.2,W/(m.K),ASSUMED FOR PARAMETRIC STUDY,Effective thermal conductivity of packed sorbent bed,,With stagnant air,Low conductivity porous bed
+h_loss,5.0,W/(m2.K),ASSUMED FOR PARAMETRIC STUDY,Overall heat loss coefficient for insulated bed,,Natural convection,
+heater_efficiency,0.95,-,LITERATURE,"Resistive heater thermal efficiency",,Electrical-to-thermal,Nearly 100% for resistive

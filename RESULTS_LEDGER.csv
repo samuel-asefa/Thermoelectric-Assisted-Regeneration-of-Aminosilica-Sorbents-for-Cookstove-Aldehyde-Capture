@@ -1,0 +1,7 @@
+claim,value,units,source_script,output_file,run_id,conditions
+Baseline HCHO capture efficiency (cycle 10),1.000,-,run_all.py,data/generated/cycle_histories/baseline.csv,baseline_cycle10,Default parameters
+Baseline HCHO regeneration completeness,0.002,-,run_all.py,data/generated/cycle_histories/baseline.csv,baseline_cycle10,Default parameters
+Baseline max regeneration temperature,299.4,K,run_all.py,data/generated/cycle_histories/baseline.csv,baseline_cycle10,Default parameters
+Baseline TEG power,0.03,W,run_all.py,data/generated/cycle_histories/baseline.csv,baseline_cycle10,Default parameters
+Total parameter sweep evaluations,1500,count,src/sweep.py,data/generated/full_parameter_sweep.csv,sweep_42,"LHS, seed=42"
+Successful sweep evaluations,1500,count,src/sweep.py,data/generated/full_parameter_sweep.csv,sweep_42,"LHS, seed=42"

@@ -1,0 +1,10 @@
+figure_id,data_file,plot_script,result_type,provenance
+Figure 1,data/generated/,run_all.py,MODEL OUTPUT,Generated from executed physics model
+Figure 2,data/generated/,run_all.py,MODEL OUTPUT,Generated from executed physics model
+Figure 3,data/generated/,run_all.py,MODEL OUTPUT,Generated from executed physics model
+Figure 4,data/generated/,run_all.py,MODEL OUTPUT,Generated from executed physics model
+Figure 5,data/generated/,run_all.py,MODEL OUTPUT,Generated from executed physics model
+Figure 6,data/generated/,run_all.py,MODEL OUTPUT,Generated from executed physics model
+Figure 7,data/generated/,run_all.py,MODEL OUTPUT,Generated from executed physics model
+Figure 8,data/generated/,run_all.py,MODEL OUTPUT,Generated from executed physics model
+Figure 9,data/generated/,run_all.py,MODEL OUTPUT,Generated from executed physics model
